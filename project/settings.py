@@ -18,8 +18,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # settings.py
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 
 # Quick-start development settings - unsuitable for production
@@ -31,9 +31,9 @@ SECRET_KEY = 'django-insecure-n-sdw2od5gyfvbibj)28*q3aa$s97uma=1p2h1xhbfb)y#ndps
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['.vercel.app']
 # Or * to allow all
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 
 
 
